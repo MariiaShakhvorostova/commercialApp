@@ -1,0 +1,58 @@
+[
+  {
+    "id": "forest all",
+    "name": "Stylish chair",
+    "img": "items-img/1.png",
+    "price": 100,
+    "category": "Forest"
+  },
+  {
+    "id": "other all",
+    "name": "Bright lamp",
+    "img": "items-img/2.png",
+    "price": 50,
+    "category": "Other"
+  },
+  {
+    "id": "foxkid all",
+    "name": "Coffee table",
+    "img": "items-img/3.png",
+    "price": 90,
+    "category": "Foxkid"
+  },
+  {
+    "id": "foxkid all",
+    "name": "TV stand",
+    "img": "items-img/4.png",
+    "price": 75,
+    "category": "Foxkid"
+  },
+  {
+    "id": "forest all",
+    "name": "Vanity table",
+    "img": "items-img/5.png",
+    "price": 20,
+    "category": "Forest"
+  },
+  {
+    "id": "other all",
+    "name": "Wide Curtain",
+    "img": "items-img/6.png",
+    "price": 40,
+    "category": "Other"
+  },
+  {
+    "id": "forest all",
+    "name": "Cosy Sofa",
+    "img": "items-img/7.png",
+    "price": 60,
+    "category": "Forest"
+  },
+  {
+    "id": "foxkid all",
+    "name": "Blue carpet",
+    "img": "items-img/8.png",
+    "price": 10,
+    "category": "Foxkid"
+  }
+]

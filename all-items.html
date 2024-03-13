@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All items</title>
+    <link rel="stylesheet" href="all-items.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navigation">
+        <header class="container open">
+          <button id="burger" class="header_burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="logo-up" alt=""></div>
+
+          <div class="nav-wrap">
+            <div class="menu">
+              <ul class="nav-menu">
+                <li id="shopButton"><a class="red" href="#"></a>SHOP</li>
+                <li id="mainPageButton"><a href="#"></a>MAINPAGE</li>
+                <li id="historyButton"><a href="#"></a>OUR HISTORY</li>
+                <li id="allItemsButton"><a href="#"></a>ALL ITEMS</li>
+              </ul>
+            </div>
+            <button id="cross" class="cross-btn">
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+          <div class="cart">
+            <div class="group" id="cart-icon"></div>
+            <div class="vector"></div>
+          </div>
+          <div class="shopping-cart">
+            <i class="close-cart"></i>
+            <span class="cart-box">box</span>
+            <h2>Your Bag</h2>
+            <div class="cart-content" id="cart-content"></div>
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">$0</div>
+            </div>
+
+            <button type="button" class="btn-buy">Checkout</button>
+          </div>
+        </header>
+      </nav>
+
+      <div class="wide">
+        <div class="title">
+          <span>Home\All items</span>
+          <h1>All items</h1>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="flex-cont">
+          <div class="flex-1">
+            <div class="search">
+              <div class="input-with-i">
+                <input class="input" type="text" placeholder="Search" />
+                <i class="m-glass"></i>
+              </div>
+              <span class="topic1">Topic</span>
+              <div class="items-buttons">
+                <button
+                  type="button"
+                  class="topic item-btn active-btn"
+                  id="all"
+                >
+                  All
+                </button>
+                <button type="button" class="topic item-btn" id="forest">
+                  Forest
+                </button>
+                <button type="button" class="topic item-btn" id="foxkid">
+                  Fox kids
+                </button>
+                <button type="button" class="topic item-btn" id="other">
+                  Other
+                </button>
+              </div>
+              <div class="slideContainer">
+                <span class="price">Price</span>
+                <input
+                  type="range"
+                  min="1"
+                  max="100"
+                  value=""
+                  id="myRange"
+                  class="slider"
+                />
+                <p>Value: $<span id="value"></span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex-2">
+            <div id="items" class="items"></div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="down-container">
+          <div class="row">
+            <div class="footer-col logo-s">
+              <ul class="ul-logo">
+                <li><div class="logo-down"></div></li>
+                <li>
+                  <p class="down_p">
+                    Lorem ipsum dolor sit amet <br />
+                    consectetur consectetur
+                  </p>
+                </li>
+                <li><p class="tel">Call us : 8956 3254 7887</p></li>
+                <div class="social-links">
+                  <a href="#"><i class="inst"></i></a>
+                  <a href="#"><i class="tg"></i></a>
+                  <a href="#"><i class="tweet"></i></a>
+                </div>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Shop</h4>
+              <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Products</h4>
+              <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Collection</h4>
+              <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Weekly updates</h4>
+              <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>About us</h4>
+              <ul>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+                <li><a href="#">Lorem ipsum</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p class="all-rights">Storelogo, 2023 All rights reserved</p>
+      </footer>
+    </div>
+
+    <script defer src="home.js"></script>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="sort.js"></script>
+    <script type="module" src="quantity.js"></script>
+    <script type="module" src="cart.js"></script>
+  </body>
+</html>
